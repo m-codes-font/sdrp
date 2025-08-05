@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sevenday Roleplay SA-MP</title>
+  <link rel="icon" href="sdrp.png"/>
+  <link rel="stylesheet" href="all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="sdrp.png" alt="Profile">
+    <h1 class="sdrp">Sevenday Roleplay</h1>
+  </header>
+
+  <section id="home" class="active">
+    <h2 class="hom"><i class="fas fa-home"></i> Home</h2>
+    <center>
+      <p class="bio">
+        Gabung Server Kami dengan cara Klik tombol Discord
+      </p>
+      <li class="t"></li>
+      <button onclick="dc()" class="dc">
+        <i class="fab fa-discord"></i>
+       Discord
+      </button>
+      <li class="t"></li>
+      <button onclick="tt()" class="tt"> 
+      <i class="fab fa-tiktok"></i>
+      Tiktok
+      </button>
+      <li class="t"></li>
+      <button onclick="yt()" class="yt"> 
+      <i class="fab fa-youtube"></i>
+      YouTube
+      </button>
+    </center>
+  </section>
+
+<section id="bio">
+  <h2 class="rsnd">Rizky Sandi [ Owner ]</h2>
+  <div class="bio-links">
+    <p class=".oem">Email :&nbsp;<a href="mailto:rizkyeesandi2009@gmail.com"> rizkyeesandi2009@gmail.com</a></p>
+  </div>
+</section>
+
+
+  <section id="videos">
+    <p class="dcb">Tutorial Bergabung & Daftar UCP</p>
+    <div class="video-list" id="videoList"></div>
+  </section>
+<nav>
+  <button onclick="showSection('home')" class="active"><i class="fas fa-home"></i> Home</button>
+  <button onclick="showSection('videos')"><i class="fas fa-video"></i> Tutorial</button>
+  <button onclick="showSection('bio')">
+    <i class="fas fa-user"></i> Bio</button>
+</nav>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+</html>
