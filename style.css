@@ -204,3 +204,12 @@ section button:active {
 .rsnd {
   font-family: 'ol';
 }
+.tutor {
+  font-family: 'r';
+  padding: 10px;
+  border: 3px solid cyan;
+  border-radius: 10px;
+  background: blue;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}

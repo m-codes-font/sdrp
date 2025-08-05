@@ -107,3 +107,32 @@ function yt() {
     }
   })
 }
+function trl() {
+  Swal.fire({
+    title: '<span style="font-family: r; font-size:25px;text-shadow:1px 1px 1px black;">Cara Bermain</span>',
+    html: `
+      <span style="font-size:15px; font-family: ob;">
+        Gabung Discord Terlebih dahulu<br><br>
+        Setelah Itu kalian ke:<br>
+        #👤〢req・role<br><br>
+        Setelah Itu Klik Emoji Dan Cari:<br>
+        #🔐〢create・ucp<br><br>
+        Lalu tulis !ucp [Nama ucp], Kirim anda akan mendapatkan chat dari BOT dengan nama Ucp dan Pin<br><br>
+        Setelah itu Masukan Ip port server ke SA-MP & Masuk<br>
+        Lalu masukan Pin dan Buat Password
+      </span>
+      <br><br> <!-- Tambahkan spasi di bawah -->
+    `,
+    imageUrl: 'sdrp.png',
+    imageWidth: 400,
+    imageHeight: 200,
+    color: '#fff', // warna teks
+    showCancelButton: true,
+    confirmButtonText: 'Discord',
+    cancelButtonText: 'Batal',
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open('https://discord.gg/qMHyMVzp')
+    }
+  })
+}
